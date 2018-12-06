@@ -5,12 +5,11 @@ public class Application {
 	private GUIFactory gui;
 	private Button btn;
 	private CheckBox chb;
-	
+
 	public Application(GUIFactory gui) {
 
 		this.gui = gui;
 		paint();
-
 	}
 
 	public void createGUI() {
@@ -21,11 +20,9 @@ public class Application {
 	}
 
 	public void paint() {
-
 		createGUI();
 		btn.paint();
 		chb.paint();
-		
 	}
 
 }
